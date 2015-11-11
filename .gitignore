@@ -1,12 +1,14 @@
+# ignore all .class files
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# ignore bin directory
+bin/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# ignore files ending in ~
+*~
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# ignore metada files
+.metadata
+
+# ignore project files
+.settings
